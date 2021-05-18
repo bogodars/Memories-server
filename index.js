@@ -15,7 +15,7 @@ app.use(cors());
 app.use('/posts', postRoutes);
 
 app.get('/', (req, res) => {
-  res.send('You are fine for now');
+  res.send('You are fine now');
 });
 
 const PORT = process.env.PORT || 5000;
